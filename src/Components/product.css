@@ -10,6 +10,7 @@
     min-width: 100px;
     background-color: white;
     z-index: 1;
+    /* box-shadow: 0 10px 18px -9px rgba(0, 0, 0, 0.85); */
     box-shadow: 0 6px 18px -9px rgba(0, 0, 0, 0.75);
     transition: transform 0.1s ease-in;
 }
@@ -34,4 +35,7 @@
 }
 .product:hover {
     transform: scale(1.05);
+}
+.ratingIcon {
+    color: #f0c14b;
 }
