@@ -4,7 +4,7 @@ import GradeIcon from '@mui/icons-material/Grade';
 import { useStateValue } from "./StateProvider";
 function Product({id, title, image, price, rating}) {
 
-    const [{ basket }, dispatch] = useStateValue();
+    const [ , dispatch] = useStateValue();
 
     // console.log("this is the basket", basket);
     const addToBasket = () => {
